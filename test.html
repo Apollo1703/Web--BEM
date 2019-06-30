@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<w3-opacity>BEM PENS 2019</w3-opacity>
+	<meta charset="utf-8">
+	<meta name="viewport" content="device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+	<link rel="stylesheets" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+  <style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("kabinet-1.jpg");
+  min-height: 100%;
+}
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+</head>
+<body>
+	<div class="w3-top">
+  <div class="w3-bar w3-white w3-card-2" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Beranda</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Kementerian</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Buletin</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> Press Release</a>
+    </div>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars w3-padding-right w3-padding-left"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidenav on small screens when clicking the menu icon -->
+<nav class="w3-sidenav w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()">Beranda</a>
+  <a href="#team" onclick="w3_close()">Kementerian</a>
+  <a href="#work" onclick="w3_close()">Buletin</a>
+  <a href="#pricing" onclick="w3_close()">Press Release</a>
+</nav>
+	<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Kabinet Barakarya</span><br>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Yuk Kenalan</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+  </div>
+</header>
+	<div class="w3-w3-container w3-padding-128" id="about">
+		<h3 class="w3-center"> VISI & MISI</h3>
+		<p class="w3-center w3-large">"Sinergi Pegerakan KM PENS untuk Indonesia dan Almamater"</p>
+		<div class="w3-row-padding w3-center" style="margin-top:64px">
+			<div class="w3-col" style="width: 20%">
+				<i class="glyphicon glyphicon-check w3-margin-bottom w3-jumbo"></i>
+				<p>"Tata kelola organisasi yang profesional dan bersahabat"</p>
+			</div>
+			<div class="w3-col" style="width: 20%">
+				<i class="glyphicon glyphicon-check w3-margin-bottom w3-jumbo"></i>
+				<p>Pemenuhan Pelayanan Mahasiswa"</p>
+			</div>
+			<div class="w3-col" style="width: 20%">
+				<i class="glyphicon glyphicon-check w3-margin-bottom w3-jumbo"></i>
+				<p>"Sinergi Pergerakan Mahasiswa"</p>
+			</div>
+			<div class="w3-col" style="width: 20%">
+				<i class="glyphicon glyphicon-check w3-margin-bottom w3-jumbo"></i>
+				<p>"Pengembangan Mahasiswa Terintegrasi"</p>
+			</div>
+			<div class="w3-col" style="width: 20%">
+				<i class="glyphicon glyphicon-check w3-margin-bottom w3-jumbo"></i>
+				<p>"Mewujudkan PENS sebagai Garda Terdepan 4.0"</p>
+			</div>	
+		</div>
+	</div>
+	<div class="w3-container w3-padding-64" id="team">
+		<h3 class="w3-center">Kabinet Barakarya</h3>
+		<div class="w3-row-padding w3-grayscale" style="margin-top: 32px">
+			<div class="w3-content w3-margin-bottom" style="max-width: 35%">
+				<div class="w3-card-2" >
+					<img src="" alt="presbem" style="align-content: center;">
+					<div class="w3-container w3-center">
+						<h3>M. Fadhila Rais</h3>
+						<p class="w3-opacity">Presiden BEM</p>
+						<p>Pimpinan BEM PENS serta Bidang Eksekutif KM PENS yang bertanggung jawab atas segala kegiatan yang dilaksanakan oleh BEM</p>
+						<p><button class="w3-button w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="w3-row-padding w3-grayscale w3-padding-64">
+  		<div class="column w3-margin-bottom">
+   			<div class="w3-card-2">
+      			<img src="" alt="Mensekkab" style="align-content: center;">
+      			<div class="w3-w3-container">
+        			<h2>Alifia Khansa</h2>
+        			<p class="w3-opacity">Menteri Sekretaris Kabinet</p>
+       				<p>Menteri yang bergerak di bidang administrasi BEM PENS dan terciptanya administrasi yang tertata dan sistematis.</p>
+       				<p>Ini kontak</p>
+       				<p><button class="w3-button w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+      				</div>
+    		</div>
+  		</div>
+		<div class="column w3-margin-bottom">
+    		<div class="w3-card-2">
+      			<img src="" alt="Sekjen" style="align-content: center;">
+      			<div class="w3-container">
+        			<h2>Nur Hidayatul Faizah</h2>
+        			<p class="w3-opacity">Sekretaris Jenderal</p>
+        			<p>Wakil pimpinan BEM PENS serta berfungsi untuk menjalankan mekanisme internal BEM PENS.</p>
+        			<p>Ini kontak</p>
+        			<p><button class="w3-button w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+      			</div>
+    		</div>
+  		</div>
+		<div class="column w3-margin-bottom">
+    		<div class="w3-card-2">
+      			<img src="" alt="menkeu" style="width: 420px; height: 333px;">
+      			<div class="w3-container">
+        			<h2>Nasyazah Anwin Ahlul Masjida</h2>
+        			<p class="w3-opacity">Menteri Keuangan</p>
+        			<p>Menteri yang bergerak di bidang keuangan BEM PENS demi sirkulasi keuangan yang jelas dan akuntabel</p>
+        			<p>Ini kontak</p>
+        			<p><button class="w3-button w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+      			</div>
+    		</div>
+ 	 	</div>
+	</div>
+	<div class="w3-row-padding w3-grayscale w3-padding-64">
+  		<div class="column w3-margin-bottom">
+   			<div class="w3-card-2">
+      			<img src="img1.jpg" alt="dagri" style="width:100%">
+      			<div class="w3-container">
+        			<h2>M. Dyanis F.</h2>
+        			<p class="w3-opacity">Menteri Dalam Negeri</p>
+       				<p>Kementerian yang bergerak di bidang internal KM PENS untuk mewujudkan Sinergi & Dinamisasi KM PENS</p>
+       				<p>Ini kontak</p>
+       				<p><button class="w3-button w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+      				</div>
+    		</div>
+  		</div>
+		<div class="column w3-margin-bottom">
+    		<div class="w3-card-2">
+      			<img src="img2.jpg" alt="kesma" >
+      			<div class="w3-container">
+        			<h2>Moh. Fajar S.</h2>
+        			<p class="w3-opacity">Menteri Kesejahteraan Mahasiswa</p>
+        			<p>Kementerian yang bergerak melayani mahasiswa demi terciptanya Sinergi & Dinamisasi KM PENS</p>
+        			<p>Ini kontak</p>
+        			<p><button class="w3-button w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+      			</div>
+    		</div>
+  		</div>
+		<div class="column w3-margin-bottom">
+    		<div class="w3-card-2">
+      			<img src="img3.jpg" alt="ristek" style="width:100%">
+      			<div class="w3-container">
+        			<h2>Muh. Dlialul Haq</h2>
+        			<p class="w3-opacity">Menteri Riset dan Teknologi</p>
+        			<p>Kementerian yang bergerak untuk mengembangkan minat & potensi mahasiswa KM PENS di bidang riset dan keilmuan</p>
+        			<p>Ini kontak</p>
+        			<p><button class="w3-button w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+      			</div>
+    		</div>
+ 	 	</div>
+	</div>
+	<div class="w3-row-padding w3-grayscale w3-padding-64">
+  		<div class="column w3-margin-bottom">
+   			<div class="w3-card-2">
+      			<img src="img1.jpg" alt="perko" style="width:100%">
+      			<div class="w3-container">
+        			<h2>Dhika Ayu K.</h2>
+        			<p class="w3-opacity">Menteri Perekonomian</p>
+       				<p>Kementerian yang bergerak untuk mengembangkan minat & potensi mahasiswa KM PENS di bidang wirausaha kreatif</p>
+       				<p>Ini kontak</p>
+       				<p><button class="w3-button w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+      				</div>
+    		</div>
+  		</div>
+		<div class="column w3-margin-bottom">
+    		<div class="w3-card-2">
+      			<img src="img2.jpg" alt="sosmas" style="width:100%">
+      			<div class="w3-container">
+        			<h2>Firman Wahyu M.</h2>
+        			<p class="w3-opacity">Menteri Sosial Masyarakt</p>
+        			<p>Kementerian yang bergerak aktif dalam mengawal & mengkaji isu kemanusian dan alam, serta meningkatkan iklim kepekaan & kepedulian mahasiswa KM PENS di bidang masyarakat</p>
+        			<p>Ini kontak</p>
+        			<p><button class="w3-button w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+      			</div>
+    		</div>
+  		</div>
+		<div class="column w3-margin-bottom">
+    		<div class="w3-card-2">
+      			<img src="img3.jpg" alt="sosbang" style="width:100%">
+      			<div class="w3-container">
+        			<h2>M. Masbukhin</h2>
+        			<p class="w3-opacity">Menteri Sosial Kebangsaan</p>
+        			<p>Kementerian yang bergerak aktif dalam mengawal dan mengkaji kebijakan publik, serta meningkatkan iklim kepekaan & kepedulian Mahasiswa KM PENS di bidang sosial politik</p>
+        			<p>Ini kontak</p>
+        			<p><button class="w3-button w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+      			</div>
+    		</div>
+ 	 	</div>
+	</div>
+	<div class="w3-row-padding w3-grayscale w3-padding-64">
+  		<div class="column w3-margin-bottom">
+   			<div class="w3-card-2">
+      			<img src="img1.jpg" alt="lugri" style="width:100%">
+      			<div class="w3-container">
+        			<h2>RM Yogi Iman B.</h2>
+        			<p class="w3-opacity">Menteri Luar Negeri</p>
+       				<p>Kementerian yang bergerak di bidang eksternal guna meningkatkan citra positif BEM PENS & KM PENS</p>
+       				<p>Ini kontak</p>
+       				<p><button class="w3-button w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+      				</div>
+    		</div>
+  		</div>
+		<div class="column w3-margin-bottom">
+    		<div class="w3-card-2">
+      			<img src="img2.jpg" alt="kominfo" style="width:100%">
+      			<div class="w3-container">
+        			<h2>Novira Parama A.</h2>
+        			<p class="w3-opacity">Menteri Komunikasi dan Informasi</p>
+        			<p>Kementerian yang bergerak melalui media untuk mewujudkan kebutuhan informasi BEM PENS maupun KM PENS</p>
+        			<p>Ini kontak</p>
+        			<p><button class="w3-button w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+      			</div>
+    		</div>
+  		</div>
+		<div class="column w3-margin-bottom">
+    		<div class="w3-card-2">
+      			<img src="img3.jpg" alt="psdm" style="width:100%">
+      			<div class="w3-container">
+        			<h2>Areta Y. Alyani</h2>
+        			<p class="w3-opacity">Menteri Pengembangan Sumber Daya Mahasiswa</p>
+        			<p>Kementerian yang bergerak di bidang kaderisasi & pelatiahn untuk mengembangkan potensi mahasiswa KM PENS</p>
+        			<p>Ini kontak</p>
+        			<p><button class="w3-button w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+      			</div>
+    		</div>
+ 	 	</div>
+	</div> 
+	 <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Us</h2>
+    <hr class="w3-opacity">
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Kampus ITS, Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota SBY, Jawa Timur 60111</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: bempens.info@gmail.com</p>
+    </div>
+    <p>Lets get in touch. Send me a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> Kirim Pesan
+        </button>
+	  </p>
+	  
+    </form>
+  <!-- End Contact Section -->
+  </div>  
+	<footer>
+		<div class="w3-black w3-container w3-padding-64 w3-center w3-xlarge" style="margin: -24px">
+			<i class="fa fa-facebook-official w3-hover-text-indigo"></i>
+			<i class="fa fa-instagram w3-hover-text-purple"></i>
+		</div>
+	</footer>
+</body>
+</html>
